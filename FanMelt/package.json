@@ -1,0 +1,53 @@
+{
+  "name": "celeb-video-marketplace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -p 3001",
+    "build": "next build",
+    "start": "next start",
+    "storybook": "start-storybook -s ./public,./static -c .storybook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.5.1",
+    "@material-ui/icons": "^4.5.1",
+    "@material-ui/styles": "^4.5.0",
+    "@svgr/webpack": "^4.3.3",
+    "@zeit/next-css": "^1.0.1",
+    "lodash": "^4.17.15",
+    "next": "^9.1.1",
+    "path": "^0.12.7",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-share": "^3.0.1",
+    "react-social-icons": "^4.1.0",
+    "react-typography": "^0.16.19",
+    "styled-components": "^4.4.0",
+    "typography": "^0.16.19",
+    "typography-theme-bootstrap": "^0.16.19",
+    "typography-theme-elk-glen": "^0.16.19"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@storybook/addon-info": "^5.2.6",
+    "@storybook/react": "^5.2.6",
+    "@types/jest": "^24.0.22",
+    "@types/node": "^12.11.1",
+    "@types/react": "^16.9.9",
+    "@types/react-dom": "^16.9.2",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-styled-components": "^1.10.6",
+    "jest": "^24.9.0",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "react-docgen-typescript-loader": "^3.3.0",
+    "tailwindcss": "^1.1.2",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.7.2"
+  }
+}

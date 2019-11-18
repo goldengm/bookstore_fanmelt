@@ -1,0 +1,10 @@
+*node_modules*
+*yarn-error.log*
+.next
+*.DS_Store*
+<<<<<<< HEAD
+.idea/
+=======
+.vscode/
+.idea/
+>>>>>>> 9ca6a649009e70697b4830529f4847869a406333
